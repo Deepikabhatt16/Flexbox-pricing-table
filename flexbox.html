@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pricing-card</title>
+    <style>
+         @media (min-width:320px ){
+            .price-container{
+                display: flex;
+                gap: 2em;
+
+                flex-direction: column;
+                justify-content: space-evenly;
+height: 100%;
+            }
+        }
+        
+        @media (min-width:680px) {
+            .price-container{
+                display: flex;
+                gap: 2em;
+      flex-direction: row;
+                height: 100%;
+                justify-content: space-around;
+            }
+        }
+    
+        body{
+            background-color: rgb(221, 196, 221);
+        }
+        .price-container{
+            display: flex;
+   justify-content: space-evenly;
+        
+        }
+        .main_box:hover{
+
+            cursor: pointer;
+         background-color:rgb(255, 255, 215) ;
+        }
+       
+        .main_box{
+            flex: 1;
+      max-width: 400px;
+      padding: 10px;
+            text-align: center;
+          box-shadow: 5px 3px 4px rgb(30, 9, 9) ;
+           border:5px solid rgb(3, 36, 61) ;
+           border-radius: 2em;
+            background-color: rgb(238, 233, 227);
+            
+        }
+        img{
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+        
+        button:hover{
+            background-color: rgb(207, 246, 108);
+            width: 85px;
+            height: 40px;
+            cursor:pointer;
+        }
+        button{
+        border: 10px solid greenyellow;
+           width: 65px;
+           height: 35px;
+          
+           border-radius: 10px;
+           border: none;
+           background-color: rgb(74, 168, 74);
+       
+        }
+        span{
+            color: gray;
+        }
+        .plan_feature{
+list-style: none;
+margin-right: 5%;
+font-size: larger;
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .Type{
+font-size:50px;
+
+color: rgb(16, 39, 58);
+text-shadow: 4px 3px 3.5px rgb(137, 63, 255);
+        }
+        p{
+         color:rgba(0, 12, 12, 0.554);
+         text-shadow: 5px 2px 3px  rgb(255, 254, 251);
+         font-size: 50px;
+         text-decoration: underline;
+       
+        }
+        .amount{
+            font-size:45px;
+color: rgb(3, 4, 3);
+
+text-shadow: 2px 1px 1px rgb(240, 242, 237);
+        }
+    .type1{
+        color: rgb(225, 206, 0);
+        text-shadow: 3px 4px 5px #282c13;
+    }
+    .type2{
+        color: rgb(4, 40, 9);
+        text-shadow: 3px 4px 5px #282c13;
+    }
+    </style>
+   </head>
+
+   <p>Pricing-Card</p>
+   <div class="price-container">
+
+   <div class="main_box">
+    <div class="Type">Basic</div>
+        <div class="amount">$39.4/month</div>
+            <ul class="plan_feature"> 
+                <li><img src="https://tse4.mm.bing.net/th?id=OIP.QdI-mzIaOVMEYXFrUR0hSQHaHa&pid=Api&P=0&w=300&h=300"/> Hosting</li>
+                <li><img src="https://tse4.mm.bing.net/th?id=OIP.QdI-mzIaOVMEYXFrUR0hSQHaHa&pid=Api&P=0&w=300&h=300"/>Access to Free group</li>
+                <li><img src="https://www.andorhealth.com/images/invalid.png" ><span>24/7 </span></li>
+                <li><img src="https://www.andorhealth.com/images/invalid.png" ><span>
+              Unlock all features from website  </span></li>
+                 </ul>
+                 <button >Try now</button>
+        </div>
+    
+        <div class="main_box ">
+            <div class="Type type1">Standard</div>
+                <div class="amount">$79.4/month</div>
+                    <ul class="plan_feature"> 
+                        <li><img src="https://tse4.mm.bing.net/th?id=OIP.QdI-mzIaOVMEYXFrUR0hSQHaHa&pid=Api&P=0&w=300&h=300"/> Hosting</li>
+                        <li><img src="https://tse4.mm.bing.net/th?id=OIP.QdI-mzIaOVMEYXFrUR0hSQHaHa&pid=Api&P=0&w=300&h=300"/>Access to Free group</li>
+                        <li><img src="https://tse4.mm.bing.net/th?id=OIP.QdI-mzIaOVMEYXFrUR0hSQHaHa&pid=Api&P=0&w=300&h=300"/>24/7</li>
+                        <li><img src="https://www.andorhealth.com/images/invalid.png" ><span>Unlock all features from website</span></li>
+                         </ul>
+                         <button>Try now</button>
+
+                        </div>
+                <div class="main_box ">
+                    <div class="Type type2">Premium</div>
+                        <div class="amount">$99.1/month</div>
+                            <ul class="plan_feature"> 
+                                <li><img src="https://tse4.mm.bing.net/th?id=OIP.QdI-mzIaOVMEYXFrUR0hSQHaHa&pid=Api&P=0&w=300&h=300"/> Hosting</li>
+                                <li><img src="https://tse4.mm.bing.net/th?id=OIP.QdI-mzIaOVMEYXFrUR0hSQHaHa&pid=Api&P=0&w=300&h=300"/>Access to Free group</li>
+                                <li><img src="https://tse4.mm.bing.net/th?id=OIP.QdI-mzIaOVMEYXFrUR0hSQHaHa&pid=Api&P=0&w=300&h=300"/>24/7</li>
+                                <li><img src="https://tse4.mm.bing.net/th?id=OIP.QdI-mzIaOVMEYXFrUR0hSQHaHa&pid=Api&P=0&w=300&h=300"/>Unlock all features from website</li>
+                            </ul>
+                            <button>Try now</button>
+
+                                </div>
+                        </div>
+</body>
+</html>
